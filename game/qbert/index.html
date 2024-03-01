@@ -1,0 +1,183 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Play Qbert Online</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="preload" as="image" href="images/joystick-150-coffee.gif" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<meta name="description" content="Play the classic arcade game Qbert for free online. No downloads or plug-ins needed." />
+<meta name="author" content="W3technic" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://qbert.ee" />
+<meta property="og:site_name" content="qbert.ee" />
+<meta property="og:title" content="Play Qbert Online" />
+<meta property="og:description" content="Play the classic arcade game Qbert for free online. No downloads or plug-ins needed." />
+<meta property="og:image" content="https://qbert.ee/images/qbert-game-card.png" />
+<meta name="twitter:image:alt" content="Qbert Game Screenshot" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="7 days" />
+
+<link rel="canonical" href="https://qbert.ee" />
+<link rel="home" href="https://qbert.ee" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" type="image/x-icon" sizes="16x16" href="favicon.ico" />
+<link rel="icon" type="image/png" sizes="180x180" href="images/qbert-game-icon-180.png" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Kong" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/qbert-game-icon-180.png" />
+
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="application-name" content="Qbert" />
+<meta name="theme-color" content="#0e0e0e" />
+<link rel="manifest" href="qbert.json" />
+
+<link rel="stylesheet" type="text/css" href="css/core-game-site.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/gracehuynhh/doodlejump/w3navigation.css" />
+<link rel="stylesheet" type="text/css" href="css/qbert.css" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
+
+<script src="js/core-game-site.js"></script>
+<script src="js/screenfull.min.js"></script>
+
+<script>
+		window.RufflePlayer = window.RufflePlayer || {};
+		window.RufflePlayer.config = {
+			"autoplay": "on",
+			"unmuteOverlay": "hidden",
+		};
+		window.addEventListener("load", (event) => {
+			const ruffle = window.RufflePlayer.newest();
+			const player = ruffle.createPlayer();
+			const container = document.getElementById("game-container");
+			container.appendChild(player);
+			player.load("qbertloader.swf");
+			var loadingscreen = document.getElementById("loading-screen");
+			loadingscreen.remove();
+		});
+	</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0HW2Z3L05C"></script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-0HW2Z3L05C');
+	</script>
+<style>
+		body {
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+				Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+			margin: 0;
+			;
+		}
+
+		#menu1 li a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+		}
+	</style>
+</head>
+<body>
+<div id="full-page-container">
+
+<main>
+<div id="game-container" style="background-image: url('images/joystick-150-coffee.gif'); background-repeat: no-repeat; background-position: center;">
+<div id="loading-screen">
+<p class="loading-screen-text"></p>
+</div>
+</div>
+</main>
+
+
+<footer>
+<div id="footer-navigation">
+<nav>
+<p class="navigation" style="padding-bottom:5px;">
+<!-- <a href="http://www.w3technic.com/privacy">Privacy</a> -->
+</p>
+</nav>
+</div>
+</footer>
+
+</div>
+
+<nav>
+<aside>
+<!-- <div id="full-screen-game-div-button"> -->
+
+<nav>
+<a href="#" onclick="fullScreenMode()"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+<path fill="#fff" d="M24 9h-2v-5h-7v-2h9v7zm-9 13v-2h7v-5h2v7h-9zm-15-7h2v5h7v2h-9v-7zm9-13v2h-7v5h-2v-7h9z" />
+</svg></a>
+</nav>
+
+</div>
+</aside>
+
+<div id="leftad">
+</div>
+<div id="rightad">
+</div>
+
+<script>
+		// Detect change in full screen mode and do stuff
+		if (screenfull.isEnabled) {
+			screenfull.on('change', () => {
+
+				var fsb = document.getElementById("full-screen-button");
+				var hm = document.getElementById("header-message");
+				var leftad = document.getElementById("leftad");
+				var rightad = document.getElementById("rightad");
+				var footernav = document.getElementById("footer-navigation");
+
+				if (screenfull.isFullscreen) {
+					fsb.style.display = "none";
+					hm.style.display = "none";
+					leftad.style.display = "none";
+					rightad.style.display = "none";
+					footernav.style.display = "none";
+				} else {
+					fsb.style.display = "block";
+					hm.style.display = "block";
+					leftad.style.display = "block";
+					rightad.style.display = "block";
+					footernav.style.display = "block";
+				}
+				console.log('Am I fullscreen?', screenfull.isFullscreen ? 'Yes' : 'No');
+			});
+		}
+	</script>
+<script src="https://flash.w3technic.com/flash/ruffle.js"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6271f5abca80cec0"></script>
+<!-- <script>
+		// Set the options globally
+		// to make LazyLoad self-initialize
+		window.lazyLoadOptions = {
+			// Your custom settings go here
+		};
+	</script> -->
+<!-- <script async defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.1/dist/lazyload.min.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"85da5261c8054c77","r":1,"version":"2024.2.1","token":"7bab6d794384451c829b720c4987f696"}' crossorigin="anonymous"></script> -->
+</body>
+</html>
