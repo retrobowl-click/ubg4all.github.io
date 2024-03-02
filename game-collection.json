@@ -411,5 +411,12 @@
         "link": "https://driftinggames.co/night-city-racing",
         "sort": 58,
         "category": ["unblocked", "car"]
+    },
+    {
+        "name": "Night City Racing",
+        "thumb": "https://christmasgames.lol/wp-content/uploads/sites/48/2024/01/Christmas-Games-150x150.webp",
+        "link": "https://christmasgames.lol/",
+        "sort": 59,
+        "category": ["unblocked", "christmas"]
     }
 ]
