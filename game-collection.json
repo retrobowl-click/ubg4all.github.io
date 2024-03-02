@@ -413,10 +413,31 @@
         "category": ["unblocked", "car"]
     },
     {
-        "name": "Night City Racing",
+        "name": "Christmas Cat",
         "thumb": "https://christmasgames.lol/wp-content/uploads/sites/48/2024/01/Christmas-Games-150x150.webp",
         "link": "https://christmasgames.lol/",
         "sort": 59,
+        "category": ["unblocked", "christmas"]
+    },
+    {
+        "name": "Minicars Soccer",
+        "thumb": "https://drivemad.co/wp-content/uploads/sites/54/2023/08/Minicars-Soccer-150x150.png.webp",
+        "link": "https://drivemad.co/minicars-soccer",
+        "sort": 60,
+        "category": ["unblocked", "car"]
+    },
+    {
+        "name": "Drive Mad",
+        "thumb": "https://drivemad.me/wp-content/uploads/2023/06/cropped-drive-mad-1.png.webp",
+        "link": "https://drivemad.me/",
+        "sort": 61,
+        "category": ["unblocked", "car"]
+    },
+    {
+        "name": "Snow Rider 3D",
+        "thumb": "https://snowrider3d.org/wp-content/uploads/2024/01/snow-rider-3d-game.webp",
+        "link": "https://snowrider3d.org/",
+        "sort": 62,
         "category": ["unblocked", "christmas"]
     }
 ]
