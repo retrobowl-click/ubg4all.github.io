@@ -404,5 +404,12 @@
         "link": "https://driftboss.me/",
         "sort": 57,
         "category": ["unblocked", "car"]
+    },
+    {
+        "name": "Night City Racing",
+        "thumb": "https://driftinggames.co/wp-content/uploads/sites/20/2024/01/Night-City-Racing-150x150.webp",
+        "link": "https://driftinggames.co/night-city-racing",
+        "sort": 57,
+        "category": ["unblocked", "car"]
     }
 ]
