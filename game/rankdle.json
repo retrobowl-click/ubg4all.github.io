@@ -1,66 +1,65 @@
 [
-    {
-      "id": 1,
-      "name": "League of Legends",
-      "link": "https://rankdle.com/games/lol",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/850x750/lol.webp",
-      "description": "Description for League of Legends."
-    },
-    {
-      "id": 2,
-      "name": "Chess",
-      "link": "https://rankdle.com/games/chess",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/1250x700/chess.webp",
-      "description": "Description for Chess."
-    },
-    {
-      "id": 3,
-      "name": "Valorant",
-      "link": "https://rankdle.com/games/val",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(100)/fit-in/900x650/VALORANT_phx_jett_2.jpg",
-      "description": "Description for Valorant."
-    },
-    {
-      "id": 4,
-      "name": "Apex Legends",
-      "link": "https://rankdle.com/games/apex",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/700x550/apeximage.png",
-      "description": "Description for Apex Legends."
-    },
-    {
-      "id": 5,
-      "name": "Rocket Legends",
-      "link": "https://rankdle.com/games/rl",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/750x750/year2_hero_blog_notext-1.webp",
-      "description": "Description for Rocket Legends."
-    },
-    {
-      "id": 6,
-      "name": "CS Go",
-      "link": "https://rankdle.com/games/csgo",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/csgo.jpg",
-      "description": "Description for CS Go."
-    },
-    {
-      "id": 7,
-      "name": "OverWatch",
-      "link": "https://rankdle.com/games/ow2",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/850x400/overwatch2.jpg",
-      "description": "Description for Overwatch."
-    },
-    {
-      "id": 8,
-      "name": "Rainbow Six",
-      "link": "https://rankdle.com/games/r6",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/700x700/siege.webp",
-      "description": "Description for Rainbow Six."
-    },
-    {
-      "id": 9,
-      "name": "Fortnite",
-      "link": "https://rankdle.com/games/fortnite",
-      "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/150x150/fortnite-logo.png",
-      "description": "Description for Fortnite."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "League of Legends",
+    "link": "https://guesstherank.org/leagueoflegends",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/850x750/lol.webp",
+    "description": "Description for League of Legends."
+  },
+  {
+    "id": 2,
+    "name": "Dota 2",
+    "link": "https://guesstherank.org/dota",
+    "thumb": "https://guesstherank.org/assets/assets/images/GameCovers/dota2_cover.png",
+    "description": "Description for Chess."
+  },
+  {
+    "id": 3,
+    "name": "Valorant",
+    "link": "https://guesstherank.org/valorant",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(100)/fit-in/900x650/VALORANT_phx_jett_2.jpg",
+    "description": "Description for Valorant."
+  },
+  {
+    "id": 4,
+    "name": "Apex Legends",
+    "link": "https://guesstherank.org/apexlegends",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/700x550/apeximage.png",
+    "description": "Description for Apex Legends."
+  },
+  {
+    "id": 5,
+    "name": "Rocket Legends",
+    "link": "https://guesstherank.org/rocketleague",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/750x750/year2_hero_blog_notext-1.webp",
+    "description": "Description for Rocket Legends."
+  },
+  {
+    "id": 6,
+    "name": "CS Go",
+    "link": "hhttps://guesstherank.org/csgo",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/csgo.jpg",
+    "description": "Description for CS Go."
+  },
+  {
+    "id": 7,
+    "name": "OverWatch",
+    "link": "https://guesstherank.org/overwatch",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/850x400/overwatch2.jpg",
+    "description": "Description for Overwatch."
+  },
+  {
+    "id": 8,
+    "name": "Rainbow Six",
+    "link": "https://guesstherank.org/r6",
+    "thumb": "https://d3tdlno2fk3smm.cloudfront.net/filters:quality(80)/fit-in/700x700/siege.webp",
+    "description": "Description for Rainbow Six."
+  },
+  {
+    "id": 9,
+    "name": "Chess",
+    "link": "https://guesstherank.org/chess",
+    "thumb": "https://guesstherank.org/assets/assets/images/GameCovers/chess_cover.webp",
+    "description": "Description for Fortnite."
+  }
+]
