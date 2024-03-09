@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Tunnel Rush Unblocked™</title>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0;
+      background: #444;
+    }
+
+    #gameContainer {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* try to handle mobile dialog */
+    canvas+* {
+      z-index: 2;
+    }
+
+    .logo {
+      display: block;
+      max-width: 100vw;
+      max-height: 70vh;
+    }
+
+    .progress {
+      margin: 1.5em;
+      border: 1px solid white;
+      width: 50vw;
+      display: none;
+    }
+
+    .progress .full {
+      margin: 2px;
+      background: white;
+      height: 1em;
+      transform-origin: top left;
+    }
+
+    #loader {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+    }
+
+    .spinner,
+    .spinner:after {
+      border-radius: 50%;
+      width: 5em;
+      height: 5em;
+    }
+
+    .spinner {
+      margin: 10px;
+      font-size: 10px;
+      position: relative;
+      text-indent: -9999em;
+      border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+      border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+      border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+      border-left: 1.1em solid #ffffff;
+      transform: translateZ(0);
+      animation: spinner-spin 1.1s infinite linear;
+    }
+
+    @keyframes spinner-spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .menu-footer {
+      width: 100%;
+      height: fit-content;
+      padding: 3px 5px;
+      margin-top: 35px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .menu-footer a {
+      float: left;
+      height: fit-content;
+      font-size: 13px;
+      margin-right: 5px;
+      text-decoration: none;
+      color: #795548;
+    }
+  </style>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #unity-container {
+      position: absolute;
+    }
+
+    #unity-container.unity-desktop {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      padding: 10px;
+    }
+
+    #unity-container.unity-mobile {
+      width: 100%;
+      height: 100%;
+    }
+
+    #unity-canvas {
+      background: #231f20;
+      width: 700px !important;
+      height: 450px !important;
+      top: 15px;
+    }
+
+    .unity-mobile #unity-canvas {
+      width: 100%;
+      height: 100%;
+    }
+
+    #unity-loading-bar {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+    }
+
+    #unity-logo {
+      width: 154px;
+      height: 130px;
+      background: url("slope-city/slope-city.jpg") no-repeat center;
+    }
+
+    #unity-progress-bar-empty {
+      width: 141px;
+      height: 18px;
+      margin-top: 10px;
+      background: url("TemplateData/progress-bar-empty-dark.png") no-repeat center;
+    }
+
+    #unity-progress-bar-full {
+      width: 0%;
+      height: 18px;
+      margin-top: 10px;
+      background: url("TemplateData/progress-bar-full-dark.png") no-repeat center;
+    }
+
+    #unity-footer {
+      position: relative;
+    }
+
+    .unity-mobile #unity-footer {
+      display: none;
+    }
+
+    #unity-webgl-logo {
+      float: left;
+      width: 204px;
+      height: 38px;
+      background: url("slope-city/slope-city.jpg") no-repeat center;
+    }
+
+    #unity-build-title {
+      float: right;
+      margin-right: 10px;
+      line-height: 38px;
+      font-family: arial;
+      font-size: 18px;
+    }
+
+    #unity-fullscreen-button {
+      float: right;
+      width: 38px;
+      height: 38px;
+      background: url("TemplateData/fullscreen-button.png") no-repeat center;
+    }
+
+    #unity-mobile-warning {
+      position: absolute;
+      left: 50%;
+      top: 5%;
+      transform: translate(-50%);
+      background: white;
+      padding: 10px;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="unity-container" class="unity-desktop">
+    <div id="unity-canvas" width="960" height="600"></div>
+    <div id="unity-loading-bar">
+      <div id="unity-logo"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+    <div id="unity-mobile-warning">
+      WebGL builds are not supported on mobile devices.
+    </div>
+    <div id="unity-footer">
+      <div id="unity-webgl-logo-1"></div>
+      <div id="unity-fullscreen-button"></div>
+      <div id="unity-build-title">Tunnel Rush Full Screen</div>
+    </div>
+  </div>
+</body>
+<script src="UnityLoader2019.js"></script>
+<script src="game.js"></script>
+
+</html>
