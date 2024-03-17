@@ -4,14 +4,14 @@
         "thumb": "https://retrobowl.me/fav.png",
         "link": "https://retrobowl.me/",
         "sort": 0,
-        "category": ["unblocked"]
+        "category": ["unblocked", "hot", "retro"]
     },
     {
         "name": "Doodle Jump",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/doodle-jump.jpeg",
         "link": "https://doodlejump.io/",
         "sort": 1,
-        "category": ["unblocked"]
+        "category": ["unblocked", "jump"]
     },
     {
         "name": "Flappy Bird",
@@ -39,49 +39,49 @@
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/cookie-clicker.webp",
         "link": "https://cookieclicker.ee",
         "sort": 5,
-        "category": ["unblocked"]
+        "category": ["unblocked", "clicker"]
     },
     {
         "name": "Cookie Clicker 2",
         "thumb": "https://cookie-clicker2.io/wp-content/uploads/2023/06/unnamed.png",
         "link": "https://cookie-clicker2.io/",
         "sort": 6,
-        "category": ["unblocked"]
+        "category": ["unblocked", "clicker"]
     },
     {
         "name": "Super Mario",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/super-mario.webp",
         "link": "https://supermario.ee/",
         "sort": 7,
-        "category": ["unblocked"]
+        "category": ["unblocked", "mario"]
     },
     {
         "name": "2048 Original",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/2048.webp",
         "link": "https://2048.ee/",
         "sort": 8,
-        "category": ["unblocked"]
+        "category": ["unblocked", "2048", "puzz", "logic"]
     },
     {
         "name": "2048 Doge",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/2048-doge.webp",
         "link": "https://2048.ee/doge/",
         "sort": 9,
-        "category": ["unblocked"]
+        "category": ["unblocked", "2048", "puzz", "logic"]
     },
     {
         "name": "2048 Cupcakes",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/2048-cupcakes.webp",
         "link": "https://2048.ee/cupcakes",
         "sort": 10,
-        "category": ["unblocked"]
+        "category": ["unblocked", "2048", "puzz", "logic"]
     },
     {
         "name": "Tic Tac Toe",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/tictactoe.png",
         "link": "https://tictactoe.ee/",
         "sort": 11,
-        "category": ["unblocked"]
+        "category": ["unblocked", "puzz", "logic"]
     },
     {
         "name": "Pacman",
@@ -95,7 +95,7 @@
         "thumb": "https://tinyfishing.io/wp-content/uploads/2023/03/poki-tiny-fishing-icon-filled-256.png",
         "link": "https://tinyfishing.io",
         "sort": 13,
-        "category": ["unblocked"]
+        "category": ["unblocked", "fishing"]
     },
     {
         "name": "Google Solitaire",
@@ -109,7 +109,7 @@
         "thumb": "https://snak.ee/180.png",
         "link": "https://snak.ee/",
         "sort": 15,
-        "category": ["unblocked"]
+        "category": ["unblocked", "snake", "fun"]
     },
     {
         "name": "Tunnel Rush",
@@ -130,14 +130,14 @@
         "thumb": "https://motox3m.pro/wp-content/uploads/2022/12/unnamed-25.png",
         "link": "https://motox3m.pro",
         "sort": 18,
-        "category": ["unblocked"]
+        "category": ["unblocked", "moto"]
     },
     {
         "name": "Duck Life",
         "thumb": "https://ducklife.app/wp-content/uploads/2023/06/cropped-duck-life.png",
         "link": "https://ducklife.app",
         "sort": 19,
-        "category": ["unblocked"]
+        "category": ["unblocked", "duck"]
     },
     {
         "name": "Happy Wheels",
@@ -151,21 +151,21 @@
         "thumb": "https://basketballlegends.io/wp-content/uploads/2023/03/poki-basketball-legends-2020-icon-filled-256.webp",
         "link": "https://basketballlegends.io/",
         "sort": 21,
-        "category": ["unblocked"]
+        "category": ["unblocked", "basketball", "sport"]
     },
     {
         "name": "Basketball Stars",
         "thumb": "https://basketballstars.app/wp-content/uploads/2023/03/basketballstars.png",
         "link": "https://basketballstars.app/",
         "sort": 22,
-        "category": ["unblocked"]
+        "category": ["unblocked", "basketball", "sport"]
     },
     {
         "name": "Football Legends",
         "thumb": "https://football-legends.io/wp-content/uploads/2023/06/cropped-football-legends-unblocked.png",
         "link": "https://football-legends.io/",
         "sort": 23,
-        "category": ["unblocked"]
+        "category": ["unblocked", "sport"]
     },
     {
         "name": "Stickman Hook",
@@ -193,42 +193,42 @@
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/mahjong.webp",
         "link": "https://freemahjong.io/",
         "sort": 27,
-        "category": ["unblocked"]
+        "category": ["unblocked", "puzz"]
     },
     {
         "name": "Wordle",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/wordle.webp",
         "link": "https://playwordle.io/",
         "sort": 28,
-        "category": ["unblocked"]
+        "category": ["unblocked", "puzz"]
     },
     {
         "name": "Temple Run 2",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/temple-run-2.png",
         "link": "https://templerun.ee/",
         "sort": 29,
-        "category": ["unblocked"]
+        "category": ["unblocked", "run"]
     },
     {
         "name": "Subway Surfers",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/subway-surfers.png",
         "link": "https://subwaysurfers.app/",
         "sort": 30,
-        "category": ["unblocked"]
+        "category": ["unblocked", "run"]
     },
     {
         "name": "Little Alchemy",
         "thumb": "https://littlealchemy.app/wp-content/uploads/2023/03/unnamed-28-300x300.png",
         "link": "https://littlealchemy.app/",
         "sort": 31,
-        "category": ["unblocked"]
+        "category": ["unblocked", "logic", "puzz"]
     },
     {
         "name": "Smash Karts",
         "thumb": "https://smash-karts.co/wp-content/uploads/2023/06/smash-karts-logo.png",
         "link": "https://smash-karts.co/",
         "sort": 32,
-        "category": ["unblocked"]
+        "category": ["unblocked", "ride"]
     },
     {
         "name": "Monkey Mart",
@@ -249,7 +249,7 @@
         "thumb": "https://drivemad.me/wp-content/uploads/2023/06/cropped-drive-mad-1.png",
         "link": "https://drivemad.me",
         "sort": 35,
-        "category": ["unblocked"]
+        "category": ["unblocked", "ride"]
     },
     {
         "name": "1v1.LOL",
@@ -263,21 +263,21 @@
         "thumb": "https://headsoccer.io/wp-content/uploads/2023/06/cropped-head-soccer-icon.png",
         "link": "https://headsoccer.io/",
         "sort": 37,
-        "category": ["unblocked"]
+        "category": ["unblocked", "gun"]
     },
     {
         "name": "Eggy Car",
         "thumb": "https://eggy-car.io/wp-content/uploads/2023/06/cropped-unnamed-1.png",
         "link": "https://eggy-car.io/",
         "sort": 38,
-        "category": ["unblocked"]
+        "category": ["unblocked", "ride"]
     },
     {
         "name": "Run 3",
         "thumb": "https://run3.pro/wp-content/uploads/2022/12/d3c19e9b-9b7b-4a54-9cb5-6188a5bd7d3b.png",
         "link": "https://run3.pro/",
         "sort": 39,
-        "category": ["unblocked"]
+        "category": ["unblocked", "run"]
     },
     {
         "name": "BitLife",
@@ -291,7 +291,7 @@
         "thumb": "https://asmallworldcup.io/wp-content/uploads/2023/06/cropped-asmw.png",
         "link": "https://asmallworldcup.io",
         "sort": 41,
-        "category": ["unblocked"]
+        "category": ["unblocked", "sport", "soccer"]
     },
     {
         "name": "Rooftop Snipers",
@@ -305,21 +305,21 @@
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/minesweeper.png",
         "link": "https://minesweeper.ee",
         "sort": 43,
-        "category": ["unblocked"]
+        "category": ["unblocked", "puzz", "logic"]
     },
     {
         "name": "Sudoku",
         "thumb": "https://sudokugame.ee/images/128x128.png",
         "link": "https://sudokugame.ee",
         "sort": 44,
-        "category": ["unblocked"]
+        "category": ["unblocked", "puzz", "logic"]
     },
     {
         "name": "Age of War",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/aow-150x150.png",
         "link": "https://aow.ee/",
         "sort": 45,
-        "category": ["unblocked"]
+        "category": ["unblocked", "flash", "war"]
     },
     {
         "name": "Jetpac",
@@ -347,7 +347,7 @@
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/donkey-kong-150x150.png",
         "link": "https://kong.ee",
         "sort": 49,
-        "category": ["unblocked"]
+        "category": ["unblocked", "flash"]
     },
     {
         "name": "Space Invaders",
@@ -361,14 +361,14 @@
         "thumb": "https://qbert.ee/images/qbert-game-icon-512.png",
         "link": "https://qbert.ee/",
         "sort": 51,
-        "category": ["unblocked"]
+        "category": ["unblocked", "flash"]
     },
     {
         "name": "Sonic",
         "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/sonic-150x150.png",
         "link": "https://sonic.ee",
         "sort": 52,
-        "category": ["unblocked"]
+        "category": ["unblocked", "flash", "run"]
     },
     {
         "name": "Asteroids",
@@ -382,7 +382,7 @@
         "thumb": "https://amongus-online.io/wp-content/uploads/2023/08/cropped-amongus_icon.png",
         "link": "https://amongus-online.io/",
         "sort": 54,
-        "category": ["unblocked"]
+        "category": ["unblocked", "hot"]
     },
     {
         "name": "Fireboy and Watergirl",
@@ -396,28 +396,28 @@
         "thumb": "https://geometry-dash.me/wp-content/uploads/sites/27/2023/10/Geometry_Dash_Logo.webp",
         "link": "https://geometry-dash.me/",
         "sort": 56,
-        "category": ["unblocked"]
+        "category": ["unblocked", "run", "music"]
     },
     {
         "name": "Drift Boss",
         "thumb": "https://driftboss.me/wp-content/uploads/sites/25/2023/10/drift-boss-icon-1.webp",
         "link": "https://driftboss.me/",
         "sort": 57,
-        "category": ["unblocked", "car"]
+        "category": ["unblocked", "car", "ride"]
     },
     {
         "name": "Night City Racing",
         "thumb": "https://driftinggames.co/wp-content/uploads/sites/20/2024/01/Night-City-Racing-150x150.webp",
         "link": "https://driftinggames.co/night-city-racing",
         "sort": 58,
-        "category": ["unblocked", "car"]
+        "category": ["unblocked", "car", "ride"]
     },
     {
         "name": "Christmas Cat",
         "thumb": "https://christmasgames.lol/wp-content/uploads/sites/48/2024/01/Christmas-Games-150x150.webp",
         "link": "https://christmasgames.lol/",
         "sort": 59,
-        "category": ["unblocked", "christmas"]
+        "category": ["unblocked", "christmas", "cat"]
     },
     {
         "name": "Minicars Soccer",
@@ -439,5 +439,75 @@
         "link": "https://snowrider3d.org/",
         "sort": 62,
         "category": ["unblocked", "christmas"]
+    },
+    {
+        "name": "Five Nights at Freddy",
+        "thumb": "https://fnaf-games.org/wp-content/uploads/sites/26/2024/02/cropped-Five-Nights-at-Freddys-Games.webp",
+        "link": "https://fnaf-games.org/",
+        "sort": 63,
+        "category": ["unblocked", "fnaf"]
+    },
+    {
+        "name": "Five Nights at Freddy’s 2",
+        "thumb": "https://fnaf2.org/wp-content/uploads/sites/30/2024/02/cropped-Five-Nights-at-Freddys-2.webp",
+        "link": "https://fnaf2.org/",
+        "sort": 64,
+        "category": ["unblocked", "fnaf"]
+    },
+    {
+        "name": "FNAF Game – Five Nights At Freddy’s",
+        "thumb": "https://fnaf.co/wp-content/uploads/sites/22/2023/12/five-nights-at-freddys-game.webp",
+        "link": "https://fnaf.co/",
+        "sort": 65,
+        "category": ["unblocked", "fnaf"]
+    },
+    {
+        "name": "Planet Clicker",
+        "thumb": "https://planetclicker.org/wp-content/uploads/sites/17/2023/12/cropped-planet-clicker-2.webp",
+        "link": "https://planetclicker.org/",
+        "sort": 66,
+        "category": ["unblocked", "clicker"]
+    },
+    {
+        "name": "Cabybara Clicker",
+        "thumb": "https://capybaraclicker.me/wp-content/uploads/sites/11/2023/12/512x512bb-1.webp",
+        "link": "https://capybaraclicker.me/",
+        "sort": 67,
+        "category": ["unblocked", "clicker"]
+    },
+    {
+        "name": "Cookie Clicker Classic",
+        "thumb": "https://www.w3technic.com/wp-content/uploads/2022/05/cookie-clicker.webp",
+        "link": "https://cookieclicker.ee/",
+        "sort": 68,
+        "category": ["unblocked", "clicker"]
+    },
+    {
+        "name": "Babie Games",
+        "thumb": "https://barbie-games.org/wp-content/uploads/sites/23/2024/02/cropped-Barbie-Games.webp",
+        "link": "https://barbie-games.org/",
+        "sort": 69,
+        "category": ["unblocked", "babie"]
+    },
+    {
+        "name": "Gacha Life 2 Unblocked",
+        "thumb": "https://gachalife2.org/wp-content/uploads/sites/29/2024/02/cropped-Gacha-Life-2.webp",
+        "link": "https://gachalife2.org/",
+        "sort": 70,
+        "category": ["unblocked", "babie"]
+    },
+    {
+        "name": "Gacha Life Unblocked",
+        "thumb": "https://gacha-life.org/wp-content/uploads/sites/31/2024/02/cropped-Gacha-Life.webp",
+        "link": "https://gacha-life.org/",
+        "sort": 70,
+        "category": ["unblocked", "babie"]
+    },
+    {
+        "name": "Dress Up Girl Unblocked",
+        "thumb": "https://dressupgames.one/wp-content/uploads/sites/40/2024/01/Dress-Up-Girl-150x150.webp",
+        "link": "https://dressupgames.one/",
+        "sort": 70,
+        "category": ["unblocked", "babie"]
     }
 ]
